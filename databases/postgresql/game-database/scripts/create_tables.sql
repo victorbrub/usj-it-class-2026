@@ -1,6 +1,4 @@
--- Create the database
-SET gameverse
--- Connect to it in pgAdmin, then run:
+
 
 -- 1. PUBLISHERS TABLE
 CREATE TABLE IF NOT EXISTS publishers (
@@ -28,7 +26,7 @@ CREATE TABLE IF NOT EXISTS genres (
 );
 
 -- 4. PLATFORMS TABLE
-CREATE TABLE IF NOT EXISTSIF NOT EXISTSplatforms (
+CREATE TABLE IF NOT EXISTS platforms (
     platform_id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     manufacturer VARCHAR(50),
@@ -84,7 +82,7 @@ CREATE TABLE IF NOT EXISTS user_library (
 );
 
 -- 9. REVIEWS TABLE
-CREATE TABLE IF NOT EXISTSreviews (
+CREATE TABLE IF NOT EXISTS reviews (
     review_id SERIAL PRIMARY KEY,
     user_id INT REFERENCES users(user_id),
     game_id INT REFERENCES games(game_id),
@@ -110,4 +108,3 @@ CREATE TABLE IF NOT EXISTS user_achievements (
     unlocked_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (user_id, achievement_id)
 );
-
