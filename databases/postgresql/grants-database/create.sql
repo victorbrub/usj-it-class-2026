@@ -43,3 +43,15 @@ CREATE TABLE IF NOT EXISTS Students (
     FOREIGN KEY (ssnProfessor) REFERENCES Professors(ssnProfessor)
 );
 
+
+INSERT INTO professors(ssnProfessor, name) VALUES (1,'Felipe Jimenez');
+
+INSERT INTO professors(ssnProfessor, name) VALUES (2,'Andrea Martinez');
+
+
+INSERT INTO grants (idgrant, title, source, starting, ending, amount)
+VALUES (111,'Subvention for teaching material', 'Aragon Government','2019-06-22 12:00:00','2022-06-22 23:59:00', 2000.0);
+INSERT INTO grants (idgrant, title, source, starting, ending, amount)
+VALUES (222,'Grant for courses', 'Universidad San Jorge','2020-09-15 00:00:00','2020-06-30 23:59:00', 800.0);
+INSERT INTO grants (idgrant, title, source, starting, ending, amount)
+VALUES (333,'Subvention for conferences', 'Ministry of Economy and Competitiveness','2020-01-01 08:00:00','2024-12-31 23:59:00', 10000.0);
