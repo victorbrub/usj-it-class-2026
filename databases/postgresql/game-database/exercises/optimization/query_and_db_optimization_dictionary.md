@@ -277,3 +277,39 @@ The amount of memory available to each sort or hash operation before spilling to
 
 **effective_cache_size**
 A planner hint (not an actual allocation) indicating how much memory the OS and PostgreSQL buffer pool have available for caching data. A higher value makes the planner more confident that index pages will be found in cache, favoring index scans. Should be set to roughly half of total RAM.
+
+---
+
+## Bulk Loading and Data Generation
+
+**CROSS JOIN**
+Produces the Cartesian product of two tables: every row from the left table is paired with every row from the right table. If the left table has M rows and the right has N, the result has M × N rows. Used in data generation to enumerate all possible (user, game) or (user, achievement) combinations, then filtered to a random subset with `WHERE random() < p`. Because both source tables contain distinct rows, CROSS JOIN never produces duplicate pairs.
+
+**generate_series(start, stop)**
+A set-returning function that produces one integer row for each value in the range `[start, stop]`. Used to generate N synthetic rows without needing a pre-existing source table. Example: `SELECT ... FROM generate_series(1, 50000) i` emits 50,000 rows numbered 1 through 50,000.
+
+**VOLATILE Function**
+A function classified as `VOLATILE` may return a different result on every call, even with identical arguments. PostgreSQL cannot cache or eliminate calls to a VOLATILE function; it must evaluate it once per row. `random()` is VOLATILE, which guarantees that each row produced by a `CROSS JOIN` receives an independently sampled random value in the `WHERE` clause, making the probability filter correct.
+
+**random()**
+A VOLATILE function that returns a uniformly distributed random number in the range [0, 1). Used as a probabilistic row filter: `WHERE random() < p` retains approximately a fraction `p` of all rows. Because `random()` is evaluated once per row, each combination in a CROSS JOIN is kept or discarded independently, producing a uniform random sample of all possible pairs.
+
+**synchronous_commit**
+A PostgreSQL configuration parameter that controls when the server considers a transaction durable. The default (`on`) requires WAL to be flushed to disk before returning success to the client. Setting it to `off` skips the per-statement fsync: the WAL is still written but flushed to disk asynchronously in the background. If the server crashes shortly after a commit, the last few milliseconds of committed transactions may be lost — but the database itself remains consistent. For bulk data loading where durability of intermediate states is not required, `synchronous_commit = off` is the single highest-impact performance setting.
+
+**fsync**
+The operating system call that flushes data from kernel write buffers to durable storage (disk). By default, PostgreSQL calls fsync at every `COMMIT` to guarantee that committed data survives a crash. Each fsync adds latency. Wrapping many INSERT statements in a single explicit transaction reduces this to one fsync at the final `COMMIT`, and setting `synchronous_commit = off` defers even that flush.
+
+**Explicit Transaction (BEGIN / COMMIT)**
+Wrapping multiple DML statements between `BEGIN` and `COMMIT` makes them a single atomic unit. For bulk loading this has two benefits: (1) one WAL fsync at `COMMIT` instead of one per statement (auto-commit mode), which can be several times faster; (2) if any statement fails, the implicit rollback leaves the table in a clean state rather than partially loaded.
+
+**Custom GUC Parameter (SET app.* / current_setting())**
+PostgreSQL allows user-defined configuration parameters under any custom namespace prefix, for example `app.num_users`. They are set with the standard SQL `SET app.num_users = '50000'` and read back with `current_setting('app.num_users')`. Unlike `\set` psql meta-commands (which expand as text before the query is sent to the server), custom GUCs are standard SQL and work identically in psql, pgAdmin, DBeaver, and application code. The value is always returned as `text`; cast to the required type with `::int`, `::numeric`, etc.
+
+**TRUNCATE ... RESTART IDENTITY CASCADE**
+Extends `TRUNCATE` with two optional clauses:
+- `RESTART IDENTITY` resets every SERIAL sequence associated with the truncated table back to its start value (usually 1), so the next insert begins numbering at 1 again.
+- `CASCADE` automatically truncates any table that has a foreign key referencing the truncated table, preventing FK violation errors. Without `CASCADE`, PostgreSQL refuses to truncate a table that is referenced by another table's FK.
+
+**SERIAL / Sequence**
+`SERIAL` is a PostgreSQL shorthand that creates an integer column backed by an auto-incrementing sequence object. Each `INSERT` that omits the column gets the next sequence value. Sequences increment even when a transaction is rolled back, which creates gaps between sequence values and the actual highest ID in the table. This is why using `MAX(id) + 1` to generate FK references is unsafe: the MAX may be lower than the sequence's next value, but it may also be lower than values already reserved by an in-flight transaction.

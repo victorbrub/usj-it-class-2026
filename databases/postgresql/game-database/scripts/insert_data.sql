@@ -101,7 +101,17 @@ INSERT INTO games (title, release_date, publisher_id, developer_id, genre_id, ra
 ('League of Legends', '2009-10-27', 12, 17, 14, 'T', 78.00, 0.00),
 ('Fortnite', '2017-07-25', 12, 12, 15, 'T', 81.00, 0.00),
 ('Animal Crossing: New Horizons', '2020-03-20', 1, 1, 11, 'E', 90.00, 59.99),
-('Super Mario Odyssey', '2017-10-27', 1, 1, 10, 'E10+', 97.00, 59.99);
+('Super Mario Odyssey', '2017-10-27', 1, 1, 10, 'E10+', 97.00, 59.99),
+('Sekiro: Shadows Die Twice', '2019-03-22', 6, 4, 1, 'M', 90.00, 59.99),
+('Ghost of Tsushima', '2020-07-17', 2, 8, 1, 'M', 83.00, 59.99),
+('Fire Emblem: Three Houses', '2019-07-26', 1, 1, 4, 'T', 89.00, 59.99),
+('Doom Eternal', '2020-03-20', 11, 12, 7, 'M', 88.00, 49.99),
+('Monster Hunter: World', '2018-01-26', 8, 4, 1, 'T', 90.00, 39.99),
+('Overwatch 2', '2022-10-04', 6, 10, 7, 'T', 72.00, 0.00),
+('Diablo IV', '2023-06-06', 6, 11, 2, 'M', 86.00, 69.99),
+('Assassin''s Creed Odyssey', '2018-10-05', 5, 14, 3, 'M', 85.00, 39.99),
+('Celeste', '2018-01-25', 15, 16, 10, 'E', 94.00, 19.99),
+('Death Stranding', '2019-11-08', 2, 2, 3, 'M', 82.00, 39.99);
 
 -- Insert Game-Platform relationships
 INSERT INTO game_platforms (game_id, platform_id, release_date) VALUES
