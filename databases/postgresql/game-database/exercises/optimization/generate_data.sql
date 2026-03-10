@@ -20,7 +20,7 @@
 
 -- Author: Víctor Barceló
 
-SET app.num_users       = '50000';
+SET app.num_users       = '100000';
 SET app.p_library       = '0.108';
 SET app.p_reviews       = '0.054';
 SET app.p_achievements  = '0.357';
