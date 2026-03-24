@@ -1,0 +1,965 @@
+[
+    {
+        "username": "gamer_pro123",
+        "email": "gamer@email.com",
+        "registration_date": "2020-01-15",
+        "country": "USA",
+        "birth_date": "1995-05-20",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-15T18:30:00Z",
+        "total_spent": 119.98,
+        "library": [
+            {
+                "title": "The Legend of Zelda: Breath of the Wild",
+                "genre": "Adventure",
+                "purchase_date": "2020-02-01",
+                "purchase_price": 59.99,
+                "hours_played": 120.5
+            },
+            {
+                "title": "Elden Ring",
+                "genre": "RPG",
+                "purchase_date": "2022-03-01",
+                "purchase_price": 59.99,
+                "hours_played": 85.0
+            },
+            {
+                "title": "Halo Infinite",
+                "genre": "Shooter",
+                "purchase_date": "2021-12-10",
+                "purchase_price": 59.99,
+                "hours_played": 145.0
+            },
+            {
+                "title": "Apex Legends",
+                "genre": "Battle Royale",
+                "purchase_date": "2020-05-15",
+                "purchase_price": 0.00,
+                "hours_played": 320.5
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "The Legend of Zelda: Breath of the Wild",
+                "rating": 10,
+                "review_text": "Absolutely a masterpiece. Best open-world game ever made.",
+                "review_date": "2020-02-15",
+                "helpful_count": 156
+            },
+            {
+                "game_title": "Elden Ring",
+                "rating": 9,
+                "review_text": "Incredibly challenging but rewarding. FromSoftware at their peak.",
+                "review_date": "2022-03-15",
+                "helpful_count": 88
+            }
+        ]
+    },
+    {
+        "username": "zelda_fan",
+        "email": "zelda@email.com",
+        "registration_date": "2019-03-10",
+        "country": "Canada",
+        "birth_date": "1998-11-12",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-16T20:15:00Z",
+        "total_spent": 309.96,
+        "library": [
+            {
+                "title": "The Legend of Zelda: Breath of the Wild",
+                "genre": "Adventure",
+                "purchase_date": "2019-05-15",
+                "purchase_price": 59.99,
+                "hours_played": 250.0
+            },
+            {
+                "title": "Animal Crossing: New Horizons",
+                "genre": "Simulation",
+                "purchase_date": "2020-03-22",
+                "purchase_price": 59.99,
+                "hours_played": 180.0
+            },
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2018-06-12",
+                "purchase_price": 14.99,
+                "hours_played": 90.0
+            },
+            {
+                "title": "Hades",
+                "genre": "Roguelike",
+                "purchase_date": "2020-09-20",
+                "purchase_price": 24.99,
+                "hours_played": 230.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "The Legend of Zelda: Breath of the Wild",
+                "rating": 10,
+                "review_text": "This game changed my life. The sense of discovery is unparalleled.",
+                "review_date": "2019-06-01",
+                "helpful_count": 89
+            },
+            {
+                "game_title": "Animal Crossing: New Horizons",
+                "rating": 9,
+                "review_text": "Perfect game to relax. Especially loved it during lockdown.",
+                "review_date": "2020-04-10",
+                "helpful_count": 45
+            }
+        ]
+    },
+    {
+        "username": "rpg_master",
+        "email": "rpg@email.com",
+        "registration_date": "2021-06-22",
+        "country": "UK",
+        "birth_date": "1992-08-30",
+        "role": "analyst",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-17T09:45:00Z",
+        "total_spent": 209.97,
+        "library": [
+            {
+                "title": "Cyberpunk 2077",
+                "genre": "RPG",
+                "purchase_date": "2020-12-15",
+                "purchase_price": 59.99,
+                "hours_played": 60.0
+            },
+            {
+                "title": "Elden Ring",
+                "genre": "RPG",
+                "purchase_date": "2022-02-28",
+                "purchase_price": 59.99,
+                "hours_played": 150.0
+            },
+            {
+                "title": "The Witcher 3: Wild Hunt",
+                "genre": "RPG",
+                "purchase_date": "2021-07-10",
+                "purchase_price": 29.99,
+                "hours_played": 275.0
+            },
+            {
+                "title": "Baldur's Gate 3",
+                "genre": "RPG",
+                "purchase_date": "2023-08-15",
+                "purchase_price": 59.99,
+                "hours_played": 210.5
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "The Witcher 3: Wild Hunt",
+                "rating": 10,
+                "review_text": "The best RPG ever made. Every quest feels hand-crafted.",
+                "review_date": "2021-08-01",
+                "helpful_count": 201
+            },
+            {
+                "game_title": "Baldur's Gate 3",
+                "rating": 10,
+                "review_text": "Larian has outdone themselves. Incredible depth and freedom.",
+                "review_date": "2023-09-01",
+                "helpful_count": 134
+            },
+            {
+                "game_title": "Cyberpunk 2077",
+                "rating": 7,
+                "review_text": "Great story, mixed technical experience at launch. Much better now.",
+                "review_date": "2021-02-10",
+                "helpful_count": 66
+            }
+        ]
+    },
+    {
+        "username": "speed_runner",
+        "email": "speed@email.com",
+        "registration_date": "2018-12-01",
+        "country": "Japan",
+        "birth_date": "2000-02-14",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-14T22:10:00Z",
+        "total_spent": 124.97,
+        "library": [
+            {
+                "title": "Red Dead Redemption 2",
+                "genre": "Adventure",
+                "purchase_date": "2019-01-20",
+                "purchase_price": 59.99,
+                "hours_played": 200.0
+            },
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2017-04-20",
+                "purchase_price": 14.99,
+                "hours_played": 180.0
+            },
+            {
+                "title": "Hades",
+                "genre": "Roguelike",
+                "purchase_date": "2020-10-01",
+                "purchase_price": 24.99,
+                "hours_played": 95.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Hollow Knight",
+                "rating": 10,
+                "review_text": "Incredible metroidvania. The lore and exploration are top-tier.",
+                "review_date": "2017-06-10",
+                "helpful_count": 112
+            },
+            {
+                "game_title": "Red Dead Redemption 2",
+                "rating": 9,
+                "review_text": "The most realistic open-world I have played. Arthur's story is incredible.",
+                "review_date": "2019-02-05",
+                "helpful_count": 77
+            }
+        ]
+    },
+    {
+        "username": "casual_player",
+        "email": "casual@email.com",
+        "registration_date": "2022-01-10",
+        "country": "Germany",
+        "birth_date": "1988-07-25",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-10T14:20:00Z",
+        "total_spent": 139.97,
+        "library": [
+            {
+                "title": "The Legend of Zelda: Breath of the Wild",
+                "genre": "Adventure",
+                "purchase_date": "2022-02-14",
+                "purchase_price": 49.99,
+                "hours_played": 30.0
+            },
+            {
+                "title": "Minecraft",
+                "genre": "Simulation",
+                "purchase_date": "2021-06-18",
+                "purchase_price": 29.99,
+                "hours_played": 450.0
+            },
+            {
+                "title": "Animal Crossing: New Horizons",
+                "genre": "Simulation",
+                "purchase_date": "2020-04-05",
+                "purchase_price": 59.99,
+                "hours_played": 220.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Minecraft",
+                "rating": 9,
+                "review_text": "My kids and I play this every weekend. Endless creativity.",
+                "review_date": "2021-07-01",
+                "helpful_count": 34
+            }
+        ]
+    },
+    {
+        "username": "souls_veteran",
+        "email": "souls@email.com",
+        "registration_date": "2017-05-20",
+        "country": "France",
+        "birth_date": "1990-12-05",
+        "role": "moderator",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-17T08:30:00Z",
+        "total_spent": 179.97,
+        "library": [
+            {
+                "title": "Elden Ring",
+                "genre": "RPG",
+                "purchase_date": "2022-03-10",
+                "purchase_price": 59.99,
+                "hours_played": 320.0
+            },
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2018-08-25",
+                "purchase_price": 14.99,
+                "hours_played": 240.5
+            },
+            {
+                "title": "Resident Evil 4 Remake",
+                "genre": "Horror",
+                "purchase_date": "2023-04-01",
+                "purchase_price": 59.99,
+                "hours_played": 75.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Elden Ring",
+                "rating": 10,
+                "review_text": "The pinnacle of the soulslike genre. Masterful open-world design.",
+                "review_date": "2022-03-20",
+                "helpful_count": 310
+            },
+            {
+                "game_title": "Hollow Knight",
+                "rating": 10,
+                "review_text": "Made by 3 people and better than most AAA games. Stunning.",
+                "review_date": "2018-09-15",
+                "helpful_count": 180
+            }
+        ]
+    },
+    {
+        "username": "indie_lover",
+        "email": "indie@email.com",
+        "registration_date": "2020-08-30",
+        "country": "Australia",
+        "birth_date": "1993-09-22",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-12T19:45:00Z",
+        "total_spent": 109.97,
+        "library": [
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2018-03-15",
+                "purchase_price": 14.99,
+                "hours_played": 85.0
+            },
+            {
+                "title": "Hades",
+                "genre": "Roguelike",
+                "purchase_date": "2020-09-20",
+                "purchase_price": 24.99,
+                "hours_played": 145.5
+            },
+            {
+                "title": "God of War Ragnarok",
+                "genre": "Action",
+                "purchase_date": "2022-11-20",
+                "purchase_price": 69.99,
+                "hours_played": 40.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Hades",
+                "rating": 10,
+                "review_text": "Best roguelike ever. Every run keeps you hooked with the amazing story progression.",
+                "review_date": "2020-10-15",
+                "helpful_count": 99
+            },
+            {
+                "game_title": "Hollow Knight",
+                "rating": 9,
+                "review_text": "Absolutely beautiful and challenging. A true indie gem.",
+                "review_date": "2018-04-01",
+                "helpful_count": 72
+            }
+        ]
+    },
+    {
+        "username": "horror_fan",
+        "email": "horror@email.com",
+        "registration_date": "2019-10-31",
+        "country": "Spain",
+        "birth_date": "1994-10-13",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-11T21:00:00Z",
+        "total_spent": 129.98,
+        "library": [
+            {
+                "title": "Resident Evil 4 Remake",
+                "genre": "Horror",
+                "purchase_date": "2023-03-30",
+                "purchase_price": 59.99,
+                "hours_played": 55.0
+            },
+            {
+                "title": "God of War Ragnarok",
+                "genre": "Action",
+                "purchase_date": "2022-11-25",
+                "purchase_price": 69.99,
+                "hours_played": 38.5
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Resident Evil 4 Remake",
+                "rating": 10,
+                "review_text": "The best remake I have ever played. Perfectly modernizes a classic.",
+                "review_date": "2023-04-05",
+                "helpful_count": 145
+            }
+        ]
+    },
+    {
+        "username": "completionist",
+        "email": "complete@email.com",
+        "registration_date": "2021-09-15",
+        "country": "Netherlands",
+        "birth_date": "1996-11-19",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-15T12:20:00Z",
+        "total_spent": 179.97,
+        "library": [
+            {
+                "title": "Elden Ring",
+                "genre": "RPG",
+                "purchase_date": "2022-03-05",
+                "purchase_price": 59.99,
+                "hours_played": 280.0
+            },
+            {
+                "title": "Baldur's Gate 3",
+                "genre": "RPG",
+                "purchase_date": "2023-08-05",
+                "purchase_price": 59.99,
+                "hours_played": 195.5
+            },
+            {
+                "title": "The Witcher 3: Wild Hunt",
+                "genre": "RPG",
+                "purchase_date": "2021-10-10",
+                "purchase_price": 29.99,
+                "hours_played": 310.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Baldur's Gate 3",
+                "rating": 10,
+                "review_text": "I have not found the end of this game yet and I have 195 hours in it.",
+                "review_date": "2023-11-20",
+                "helpful_count": 88
+            },
+            {
+                "game_title": "The Witcher 3: Wild Hunt",
+                "rating": 10,
+                "review_text": "Completed every quest, every card, every contract. Perfection.",
+                "review_date": "2022-01-05",
+                "helpful_count": 120
+            }
+        ]
+    },
+    {
+        "username": "fighting_champion",
+        "email": "fighter@email.com",
+        "registration_date": "2022-03-05",
+        "country": "Japan",
+        "birth_date": "1998-08-07",
+        "role": "analyst",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-16T19:30:00Z",
+        "total_spent": 99.98,
+        "library": [
+            {
+                "title": "Street Fighter 6",
+                "genre": "Fighting",
+                "purchase_date": "2023-06-10",
+                "purchase_price": 59.99,
+                "hours_played": 125.0
+            },
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2020-05-15",
+                "purchase_price": 14.99,
+                "hours_played": 88.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Street Fighter 6",
+                "rating": 9,
+                "review_text": "The drive system is a game changer. Best SF in years.",
+                "review_date": "2023-06-20",
+                "helpful_count": 67
+            }
+        ]
+    },
+    {
+        "username": "retro_gamer",
+        "email": "retro@email.com",
+        "registration_date": "2017-01-20",
+        "country": "UK",
+        "birth_date": "1985-04-25",
+        "role": "admin",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-17T10:00:00Z",
+        "total_spent": 89.98,
+        "library": [
+            {
+                "title": "Minecraft",
+                "genre": "Simulation",
+                "purchase_date": "2015-05-25",
+                "purchase_price": 29.99,
+                "hours_played": 680.0
+            },
+            {
+                "title": "Red Dead Redemption 2",
+                "genre": "Adventure",
+                "purchase_date": "2019-11-10",
+                "purchase_price": 59.99,
+                "hours_played": 150.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Minecraft",
+                "rating": 10,
+                "review_text": "Still the most creative game ever made. No other game comes close for pure freedom.",
+                "review_date": "2016-03-01",
+                "helpful_count": 210
+            },
+            {
+                "game_title": "Red Dead Redemption 2",
+                "rating": 10,
+                "review_text": "A cinematic experience that rivals any film. Arthur Morgan is one of gaming's best characters.",
+                "review_date": "2020-01-05",
+                "helpful_count": 155
+            }
+        ]
+    },
+    {
+        "username": "shooter_ace",
+        "email": "shooter@email.com",
+        "registration_date": "2019-07-15",
+        "country": "USA",
+        "birth_date": "1997-03-18",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-17T17:05:00Z",
+        "total_spent": 59.99,
+        "library": [
+            {
+                "title": "Halo Infinite",
+                "genre": "Shooter",
+                "purchase_date": "2022-01-15",
+                "purchase_price": 59.99,
+                "hours_played": 165.5
+            },
+            {
+                "title": "Apex Legends",
+                "genre": "Battle Royale",
+                "purchase_date": "2020-03-01",
+                "purchase_price": 0.00,
+                "hours_played": 580.0
+            },
+            {
+                "title": "Overwatch 2",
+                "genre": "Shooter",
+                "purchase_date": "2022-10-10",
+                "purchase_price": 0.00,
+                "hours_played": 310.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Apex Legends",
+                "rating": 9,
+                "review_text": "The movement mechanics are unlike anything else. Incredibly satisfying gunplay.",
+                "review_date": "2020-04-01",
+                "helpful_count": 101
+            },
+            {
+                "game_title": "Halo Infinite",
+                "rating": 8,
+                "review_text": "Campaign was great but multiplayer progression felt slow at launch.",
+                "review_date": "2022-02-01",
+                "helpful_count": 58
+            }
+        ]
+    },
+    {
+        "username": "strategy_mind",
+        "email": "strategy@email.com",
+        "registration_date": "2018-11-12",
+        "country": "South Korea",
+        "birth_date": "1991-06-14",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-16T23:15:00Z",
+        "total_spent": 59.99,
+        "library": [
+            {
+                "title": "Baldur's Gate 3",
+                "genre": "RPG",
+                "purchase_date": "2023-08-10",
+                "purchase_price": 59.99,
+                "hours_played": 190.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Baldur's Gate 3",
+                "rating": 10,
+                "review_text": "The turn-based combat rewards strategic thinking like no other modern game. A landmark title.",
+                "review_date": "2023-10-01",
+                "helpful_count": 145
+            }
+        ]
+    },
+    {
+        "username": "platformer_king",
+        "email": "platform@email.com",
+        "registration_date": "2021-02-28",
+        "country": "Brazil",
+        "birth_date": "1999-01-30",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-13T16:30:00Z",
+        "total_spent": 179.97,
+        "library": [
+            {
+                "title": "Super Mario Odyssey",
+                "genre": "Platformer",
+                "purchase_date": "2021-11-05",
+                "purchase_price": 59.99,
+                "hours_played": 120.0
+            },
+            {
+                "title": "The Legend of Zelda: Breath of the Wild",
+                "genre": "Adventure",
+                "purchase_date": "2021-06-10",
+                "purchase_price": 59.99,
+                "hours_played": 80.5
+            },
+            {
+                "title": "Animal Crossing: New Horizons",
+                "genre": "Simulation",
+                "purchase_date": "2021-03-25",
+                "purchase_price": 59.99,
+                "hours_played": 140.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Super Mario Odyssey",
+                "rating": 10,
+                "review_text": "Pure joy from start to finish. Mario at his absolute best.",
+                "review_date": "2021-12-01",
+                "helpful_count": 78
+            },
+            {
+                "game_title": "Animal Crossing: New Horizons",
+                "rating": 8,
+                "review_text": "Very charming and relaxing. Great if you have time to invest in it daily.",
+                "review_date": "2021-05-10",
+                "helpful_count": 32
+            }
+        ]
+    },
+    {
+        "username": "jrpg_devotee",
+        "email": "jrpg@email.com",
+        "registration_date": "2020-04-05",
+        "country": "Japan",
+        "birth_date": "1996-03-11",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-18T14:00:00Z",
+        "total_spent": 249.96,
+        "library": [
+            {
+                "title": "Persona 5 Royal",
+                "genre": "RPG",
+                "purchase_date": "2020-05-01",
+                "purchase_price": 59.99,
+                "hours_played": 155.0
+            },
+            {
+                "title": "Final Fantasy XVI",
+                "genre": "RPG",
+                "purchase_date": "2023-06-25",
+                "purchase_price": 69.99,
+                "hours_played": 90.0
+            },
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2021-01-10",
+                "purchase_price": 14.99,
+                "hours_played": 110.0
+            },
+            {
+                "title": "Disco Elysium",
+                "genre": "RPG",
+                "purchase_date": "2022-08-20",
+                "purchase_price": 39.99,
+                "hours_played": 75.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Persona 5 Royal",
+                "rating": 10,
+                "review_text": "Nothing has ever gripped me like Persona 5. The music, story and characters are unbeatable.",
+                "review_date": "2020-07-15",
+                "helpful_count": 193
+            },
+            {
+                "game_title": "Final Fantasy XVI",
+                "rating": 8,
+                "review_text": "Loved the action combat and story. Smaller world than I expected though.",
+                "review_date": "2023-07-10",
+                "helpful_count": 60
+            },
+            {
+                "game_title": "Disco Elysium",
+                "rating": 10,
+                "review_text": "The most unique RPG I have ever played. More like a novel than a game.",
+                "review_date": "2022-09-05",
+                "helpful_count": 130
+            }
+        ]
+    },
+    {
+        "username": "vr_pioneer",
+        "email": "vrpioneer@email.com",
+        "registration_date": "2020-11-01",
+        "country": "Germany",
+        "birth_date": "1990-07-19",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-16T11:20:00Z",
+        "total_spent": 59.99,
+        "library": [
+            {
+                "title": "Half-Life: Alyx",
+                "genre": "Shooter",
+                "purchase_date": "2020-11-15",
+                "purchase_price": 59.99,
+                "hours_played": 22.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Half-Life: Alyx",
+                "rating": 10,
+                "review_text": "This is what VR was made for. Nothing comes close to this level of immersion.",
+                "review_date": "2020-12-01",
+                "helpful_count": 245
+            }
+        ]
+    },
+    {
+        "username": "multiplayer_addict",
+        "email": "multi@email.com",
+        "registration_date": "2020-06-01",
+        "country": "USA",
+        "birth_date": "2001-07-08",
+        "role": "user",
+        "account_status": "suspended",
+        "is_premium": false,
+        "last_login": "2025-12-20T15:45:00Z",
+        "total_spent": 0.00,
+        "library": [
+            {
+                "title": "Apex Legends",
+                "genre": "Battle Royale",
+                "purchase_date": "2020-06-10",
+                "purchase_price": 0.00,
+                "hours_played": 1100.0
+            },
+            {
+                "title": "Overwatch 2",
+                "genre": "Shooter",
+                "purchase_date": "2022-10-05",
+                "purchase_price": 0.00,
+                "hours_played": 850.0
+            }
+        ],
+        "reviews": []
+    },
+    {
+        "username": "indie_dev_fan",
+        "email": "indiedev@email.com",
+        "registration_date": "2019-05-18",
+        "country": "Sweden",
+        "birth_date": "1994-02-28",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-15T09:30:00Z",
+        "total_spent": 89.96,
+        "library": [
+            {
+                "title": "Stardew Valley",
+                "genre": "Simulation",
+                "purchase_date": "2019-06-01",
+                "purchase_price": 14.99,
+                "hours_played": 320.0
+            },
+            {
+                "title": "Celeste",
+                "genre": "Platformer",
+                "purchase_date": "2019-09-15",
+                "purchase_price": 19.99,
+                "hours_played": 55.0
+            },
+            {
+                "title": "Hollow Knight",
+                "genre": "Platformer",
+                "purchase_date": "2020-03-10",
+                "purchase_price": 14.99,
+                "hours_played": 100.0
+            },
+            {
+                "title": "Disco Elysium",
+                "genre": "RPG",
+                "purchase_date": "2021-04-20",
+                "purchase_price": 39.99,
+                "hours_played": 80.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Stardew Valley",
+                "rating": 10,
+                "review_text": "One developer made this entire game and it is more polished than most AAA titles. Respect.",
+                "review_date": "2019-08-01",
+                "helpful_count": 175
+            },
+            {
+                "game_title": "Celeste",
+                "rating": 10,
+                "review_text": "A masterclass in game feel and difficulty design. And the story hit closer to home than expected.",
+                "review_date": "2019-10-12",
+                "helpful_count": 140
+            },
+            {
+                "game_title": "Disco Elysium",
+                "rating": 9,
+                "review_text": "A stunning, strange, brilliant RPG. Not for everyone, but those who get it will love it.",
+                "review_date": "2021-05-05",
+                "helpful_count": 88
+            }
+        ]
+    },
+    {
+        "username": "fps_grinder",
+        "email": "fps@email.com",
+        "registration_date": "2021-03-22",
+        "country": "USA",
+        "birth_date": "2003-11-04",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": false,
+        "last_login": "2026-02-18T22:40:00Z",
+        "total_spent": 39.99,
+        "library": [
+            {
+                "title": "Doom Eternal",
+                "genre": "Shooter",
+                "purchase_date": "2021-04-01",
+                "purchase_price": 39.99,
+                "hours_played": 75.0
+            },
+            {
+                "title": "Apex Legends",
+                "genre": "Battle Royale",
+                "purchase_date": "2021-03-25",
+                "purchase_price": 0.00,
+                "hours_played": 440.0
+            },
+            {
+                "title": "Overwatch 2",
+                "genre": "Shooter",
+                "purchase_date": "2022-10-06",
+                "purchase_price": 0.00,
+                "hours_played": 280.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Doom Eternal",
+                "rating": 10,
+                "review_text": "The best arena shooter ever made. Every encounter is a puzzle and a combat symphony.",
+                "review_date": "2021-05-10",
+                "helpful_count": 119
+            }
+        ]
+    },
+    {
+        "username": "action_hunter",
+        "email": "hunter@email.com",
+        "registration_date": "2018-06-30",
+        "country": "Italy",
+        "birth_date": "1993-12-02",
+        "role": "user",
+        "account_status": "active",
+        "is_premium": true,
+        "last_login": "2026-02-17T20:10:00Z",
+        "total_spent": 129.97,
+        "library": [
+            {
+                "title": "Monster Hunter: World",
+                "genre": "Action",
+                "purchase_date": "2018-07-10",
+                "purchase_price": 39.99,
+                "hours_played": 510.0
+            },
+            {
+                "title": "Sekiro: Shadows Die Twice",
+                "genre": "Action",
+                "purchase_date": "2019-04-01",
+                "purchase_price": 59.99,
+                "hours_played": 130.0
+            },
+            {
+                "title": "Spider-Man: Miles Morales",
+                "genre": "Action",
+                "purchase_date": "2021-05-20",
+                "purchase_price": 29.99,
+                "hours_played": 28.0
+            }
+        ],
+        "reviews": [
+            {
+                "game_title": "Monster Hunter: World",
+                "rating": 10,
+                "review_text": "500 hours and still going. The best co-op game I have ever played.",
+                "review_date": "2019-01-15",
+                "helpful_count": 222
+            },
+            {
+                "game_title": "Sekiro: Shadows Die Twice",
+                "rating": 9,
+                "review_text": "The parry system is genius once it clicks. Genichiro fight changed my life.",
+                "review_date": "2019-05-10",
+                "helpful_count": 98
+            }
+        ]
+    }
+]

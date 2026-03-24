@@ -1,0 +1,731 @@
+[
+    {
+        "name": "FromSoftware Independent",
+        "country": "Japan",
+        "founded_year": 1986,
+        "website": "www.fromsoftware.jp",
+        "headquarters": {
+            "city": "Tokyo",
+            "district": "Shinjuku",
+            "country": "Japan",
+            "coordinates": {
+                "lat": 35.6895,
+                "lon": 139.6917
+            }
+        },
+        "financials": {
+            "annual_revenue_usd_millions": 420,
+            "employees": 350,
+            "publicly_traded": false,
+            "parent_company": "Kadokawa Corporation"
+        },
+        "social_media": {
+            "twitter_followers": 890000,
+            "youtube_subscribers": 210000,
+            "instagram_followers": 340000
+        },
+        "genres_specialized": [
+            "Action",
+            "RPG"
+        ],
+        "catalog": [
+            {
+                "title": "Elden Ring",
+                "release_date": "2022-02-25",
+                "genre": "RPG",
+                "metacritic_score": 96,
+                "price": 59.99,
+                "total_copies_sold_millions": 21.4,
+                "platforms": [
+                    "PC",
+                    "PlayStation 5",
+                    "Xbox Series X"
+                ],
+                "dlc": [
+                    {
+                        "name": "Shadow of the Erdtree",
+                        "release_date": "2024-06-21",
+                        "price": 39.99,
+                        "metacritic_score": 95,
+                        "new_areas": [
+                            "Shadow Realm",
+                            "Cerulean Coast",
+                            "Rauh Ancient Ruins"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2022",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Game Direction",
+                        "ceremony": "The Game Awards 2022",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "Sekiro: Shadows Die Twice",
+                "release_date": "2019-03-22",
+                "genre": "Action",
+                "metacritic_score": 90,
+                "price": 59.99,
+                "total_copies_sold_millions": 10.0,
+                "platforms": [
+                    "PC",
+                    "PlayStation 4",
+                    "Xbox One"
+                ],
+                "dlc": [],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2019",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Action Game",
+                        "ceremony": "The Game Awards 2019",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "Dark Souls III",
+                "release_date": "2016-04-12",
+                "genre": "RPG",
+                "metacritic_score": 89,
+                "price": 39.99,
+                "total_copies_sold_millions": 10.0,
+                "platforms": [
+                    "PC",
+                    "PlayStation 4",
+                    "Xbox One"
+                ],
+                "dlc": [
+                    {
+                        "name": "Ashes of Ariandel",
+                        "release_date": "2016-10-25",
+                        "price": 14.99,
+                        "metacritic_score": 72,
+                        "new_areas": [
+                            "Painted World of Ariandel"
+                        ]
+                    },
+                    {
+                        "name": "The Ringed City",
+                        "release_date": "2017-03-28",
+                        "price": 14.99,
+                        "metacritic_score": 82,
+                        "new_areas": [
+                            "The Dreg Heap",
+                            "The Ringed City"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Best RPG",
+                        "ceremony": "The Game Awards 2016",
+                        "won": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Nintendo",
+        "country": "Japan",
+        "founded_year": 1889,
+        "website": "www.nintendo.com",
+        "headquarters": {
+            "city": "Kyoto",
+            "district": "Minami-ku",
+            "country": "Japan",
+            "coordinates": {
+                "lat": 34.9756,
+                "lon": 135.7581
+            }
+        },
+        "financials": {
+            "annual_revenue_usd_millions": 12800,
+            "employees": 6700,
+            "publicly_traded": true,
+            "stock_ticker": "NTDOY",
+            "parent_company": null
+        },
+        "social_media": {
+            "twitter_followers": 7500000,
+            "youtube_subscribers": 9800000,
+            "instagram_followers": 4200000
+        },
+        "genres_specialized": [
+            "Platformer",
+            "Adventure",
+            "Simulation",
+            "Fighting"
+        ],
+        "catalog": [
+            {
+                "title": "The Legend of Zelda: Breath of the Wild",
+                "release_date": "2017-03-03",
+                "genre": "Adventure",
+                "metacritic_score": 97,
+                "price": 59.99,
+                "total_copies_sold_millions": 32.0,
+                "platforms": [
+                    "Nintendo Switch"
+                ],
+                "dlc": [
+                    {
+                        "name": "The Master Trials",
+                        "release_date": "2017-06-30",
+                        "price": 19.99,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Trial of the Sword",
+                            "Master Mode"
+                        ]
+                    },
+                    {
+                        "name": "The Champions' Ballad",
+                        "release_date": "2017-12-09",
+                        "price": null,
+                        "included_in": "Expansion Pass",
+                        "new_areas": [
+                            "Divine Beast revisits",
+                            "Illusory World"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2017",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Game Direction",
+                        "ceremony": "The Game Awards 2017",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "Super Mario Odyssey",
+                "release_date": "2017-10-27",
+                "genre": "Platformer",
+                "metacritic_score": 97,
+                "price": 59.99,
+                "total_copies_sold_millions": 26.9,
+                "platforms": [
+                    "Nintendo Switch"
+                ],
+                "dlc": [],
+                "awards": [
+                    {
+                        "award": "Best Platformer",
+                        "ceremony": "The Game Awards 2017",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "Animal Crossing: New Horizons",
+                "release_date": "2020-03-20",
+                "genre": "Simulation",
+                "metacritic_score": 90,
+                "price": 59.99,
+                "total_copies_sold_millions": 44.8,
+                "platforms": [
+                    "Nintendo Switch"
+                ],
+                "dlc": [
+                    {
+                        "name": "Happy Home Paradise",
+                        "release_date": "2021-11-05",
+                        "price": 24.99,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Paradise Planning island",
+                            "Vacation homes",
+                            "Paldea archipelago"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Best Family Game",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    },
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2020",
+                        "won": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Devolver Digital",
+        "country": "USA",
+        "founded_year": 2009,
+        "website": "www.devolverdigital.com",
+        "headquarters": {
+            "city": "Austin",
+            "district": "Travis County",
+            "country": "USA",
+            "coordinates": {
+                "lat": 30.2672,
+                "lon": -97.7431
+            }
+        },
+        "financials": {
+            "annual_revenue_usd_millions": 85,
+            "employees": 50,
+            "publicly_traded": true,
+            "stock_ticker": "DEVO",
+            "parent_company": null
+        },
+        "social_media": {
+            "twitter_followers": 1200000,
+            "youtube_subscribers": 310000,
+            "instagram_followers": 180000
+        },
+        "genres_specialized": [
+            "Indie",
+            "Roguelike",
+            "Platformer",
+            "Action"
+        ],
+        "catalog": [
+            {
+                "title": "Hades",
+                "release_date": "2020-09-17",
+                "genre": "Roguelike",
+                "metacritic_score": 93,
+                "price": 24.99,
+                "total_copies_sold_millions": 3.0,
+                "platforms": [
+                    "PC",
+                    "PlayStation 5",
+                    "Xbox Series X",
+                    "Nintendo Switch"
+                ],
+                "dlc": [],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2020",
+                        "won": false
+                    },
+                    {
+                        "award": "Best Indie Game",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Narrative",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "Hollow Knight",
+                "release_date": "2017-02-24",
+                "genre": "Platformer",
+                "metacritic_score": 90,
+                "price": 14.99,
+                "total_copies_sold_millions": 4.6,
+                "platforms": [
+                    "PC",
+                    "PlayStation 4",
+                    "Xbox One",
+                    "Nintendo Switch"
+                ],
+                "dlc": [
+                    {
+                        "name": "Hidden Dreams",
+                        "release_date": "2017-08-03",
+                        "price": 0.00,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Dream boss encounters"
+                        ]
+                    },
+                    {
+                        "name": "The Grimm Troupe",
+                        "release_date": "2017-10-26",
+                        "price": 0.00,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Grimm boss fight chain"
+                        ]
+                    },
+                    {
+                        "name": "Godmaster",
+                        "release_date": "2018-08-23",
+                        "price": 0.00,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Pantheons of the Master",
+                            "Absolute Radiance"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Best Indie Game",
+                        "ceremony": "GDC Awards 2018",
+                        "won": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sony Interactive Entertainment",
+        "country": "USA",
+        "founded_year": 1993,
+        "website": "www.playstation.com",
+        "headquarters": {
+            "city": "San Mateo",
+            "district": "San Mateo County",
+            "country": "USA",
+            "coordinates": {
+                "lat": 37.5630,
+                "lon": -122.3255
+            }
+        },
+        "financials": {
+            "annual_revenue_usd_millions": 28000,
+            "employees": 9500,
+            "publicly_traded": false,
+            "parent_company": "Sony Group Corporation"
+        },
+        "social_media": {
+            "twitter_followers": 22000000,
+            "youtube_subscribers": 18000000,
+            "instagram_followers": 38000000
+        },
+        "genres_specialized": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "catalog": [
+            {
+                "title": "God of War Ragnarok",
+                "release_date": "2022-11-09",
+                "genre": "Action",
+                "metacritic_score": 94,
+                "price": 69.99,
+                "total_copies_sold_millions": 15.0,
+                "platforms": [
+                    "PlayStation 5",
+                    "PlayStation 4"
+                ],
+                "dlc": [
+                    {
+                        "name": "Valhalla",
+                        "release_date": "2023-12-12",
+                        "price": 0.00,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Valhalla roguelike mode"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2022",
+                        "won": false
+                    },
+                    {
+                        "award": "Best Narrative",
+                        "ceremony": "The Game Awards 2022",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Action Game",
+                        "ceremony": "The Game Awards 2022",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "The Last of Us Part II",
+                "release_date": "2020-06-19",
+                "genre": "Adventure",
+                "metacritic_score": 93,
+                "price": 69.99,
+                "total_copies_sold_millions": 10.0,
+                "platforms": [
+                    "PlayStation 5",
+                    "PlayStation 4"
+                ],
+                "dlc": [],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Narrative",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Performance",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    }
+                ]
+            },
+            {
+                "title": "Spider-Man: Miles Morales",
+                "release_date": "2020-11-12",
+                "genre": "Action",
+                "metacritic_score": 85,
+                "price": 49.99,
+                "total_copies_sold_millions": 6.5,
+                "platforms": [
+                    "PlayStation 5",
+                    "PlayStation 4",
+                    "PC"
+                ],
+                "dlc": [],
+                "awards": [
+                    {
+                        "award": "Best Score/Music",
+                        "ceremony": "The Game Awards 2020",
+                        "won": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Larian Studios",
+        "country": "Belgium",
+        "founded_year": 1996,
+        "website": "www.larian.com",
+        "headquarters": {
+            "city": "Ghent",
+            "district": "East Flanders",
+            "country": "Belgium",
+            "coordinates": {
+                "lat": 51.0543,
+                "lon": 3.7174
+            }
+        },
+        "financials": {
+            "annual_revenue_usd_millions": 230,
+            "employees": 450,
+            "publicly_traded": false,
+            "parent_company": null
+        },
+        "social_media": {
+            "twitter_followers": 950000,
+            "youtube_subscribers": 425000,
+            "instagram_followers": 210000
+        },
+        "genres_specialized": [
+            "RPG"
+        ],
+        "catalog": [
+            {
+                "title": "Baldur's Gate 3",
+                "release_date": "2023-08-03",
+                "genre": "RPG",
+                "metacritic_score": 96,
+                "price": 59.99,
+                "total_copies_sold_millions": 15.0,
+                "platforms": [
+                    "PC",
+                    "PlayStation 5"
+                ],
+                "dlc": [],
+                "awards": [
+                    {
+                        "award": "Game of the Year",
+                        "ceremony": "The Game Awards 2023",
+                        "won": true
+                    },
+                    {
+                        "award": "Best RPG",
+                        "ceremony": "The Game Awards 2023",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Multiplayer",
+                        "ceremony": "The Game Awards 2023",
+                        "won": true
+                    },
+                    {
+                        "award": "Players Voice",
+                        "ceremony": "The Game Awards 2023",
+                        "won": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Capcom",
+        "country": "Japan",
+        "founded_year": 1979,
+        "website": "www.capcom.com",
+        "headquarters": {
+            "city": "Osaka",
+            "district": "Chuo-ku",
+            "country": "Japan",
+            "coordinates": {
+                "lat": 34.6937,
+                "lon": 135.5023
+            }
+        },
+        "financials": {
+            "annual_revenue_usd_millions": 940,
+            "employees": 2800,
+            "publicly_traded": true,
+            "stock_ticker": "CCOEY",
+            "parent_company": null
+        },
+        "social_media": {
+            "twitter_followers": 3100000,
+            "youtube_subscribers": 2200000,
+            "instagram_followers": 1500000
+        },
+        "genres_specialized": [
+            "Action",
+            "Horror",
+            "Fighting"
+        ],
+        "catalog": [
+            {
+                "title": "Resident Evil 4 Remake",
+                "release_date": "2023-03-24",
+                "genre": "Horror",
+                "metacritic_score": 93,
+                "price": 59.99,
+                "total_copies_sold_millions": 8.0,
+                "platforms": [
+                    "PlayStation 5",
+                    "Xbox Series X",
+                    "PC",
+                    "PlayStation 4"
+                ],
+                "dlc": [
+                    {
+                        "name": "Separate Ways",
+                        "release_date": "2023-09-21",
+                        "price": 9.99,
+                        "metacritic_score": 82,
+                        "new_areas": [
+                            "Ada's parallel story",
+                            "Saddler fight from Ada's perspective"
+                        ]
+                    },
+                    {
+                        "name": "The Mercenaries",
+                        "release_date": "2023-04-07",
+                        "price": 0.00,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Mercenaries mode arenas"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Best Remake",
+                        "ceremony": "The Game Awards 2023",
+                        "won": false
+                    },
+                    {
+                        "award": "Best Action Game",
+                        "ceremony": "BAFTA 2024",
+                        "won": false
+                    }
+                ]
+            },
+            {
+                "title": "Street Fighter 6",
+                "release_date": "2023-06-02",
+                "genre": "Fighting",
+                "metacritic_score": 92,
+                "price": 59.99,
+                "total_copies_sold_millions": 4.0,
+                "platforms": [
+                    "PlayStation 5",
+                    "Xbox Series X",
+                    "PC"
+                ],
+                "dlc": [
+                    {
+                        "name": "Year 1 Character Pass",
+                        "release_date": "2023-07-24",
+                        "price": 29.99,
+                        "metacritic_score": null,
+                        "new_areas": [
+                            "Rashid, A.K.I., Ed, Akuma"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Best Fighting Game",
+                        "ceremony": "The Game Awards 2023",
+                        "won": true
+                    },
+                    {
+                        "award": "Best Ongoing Game",
+                        "ceremony": "The Game Awards 2023",
+                        "won": false
+                    }
+                ]
+            },
+            {
+                "title": "Monster Hunter: World",
+                "release_date": "2018-01-26",
+                "genre": "Action",
+                "metacritic_score": 88,
+                "price": 29.99,
+                "total_copies_sold_millions": 21.0,
+                "platforms": [
+                    "PC",
+                    "PlayStation 4",
+                    "Xbox One"
+                ],
+                "dlc": [
+                    {
+                        "name": "Iceborne",
+                        "release_date": "2019-09-06",
+                        "price": 39.99,
+                        "metacritic_score": 86,
+                        "new_areas": [
+                            "Hoarfrost Reach",
+                            "Seliana base camp"
+                        ]
+                    }
+                ],
+                "awards": [
+                    {
+                        "award": "Best Action Game",
+                        "ceremony": "The Game Awards 2018",
+                        "won": false
+                    }
+                ]
+            }
+        ]
+    }
+]

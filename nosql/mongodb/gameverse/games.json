@@ -1,0 +1,1468 @@
+[
+    {
+        "title": "Elden Ring",
+        "release_date": "2022-02-25",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 96,
+        "price": 59.99,
+        "publisher": {
+            "name": "Bandai Namco",
+            "country": "Japan",
+            "founded_year": 1955
+        },
+        "developer": {
+            "name": "FromSoftware",
+            "country": "Japan",
+            "founded_year": 1986,
+            "employee_count": 350
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X"
+        ],
+        "tags": [
+            "open-world",
+            "souls-like",
+            "challenging",
+            "fantasy"
+        ],
+        "achievements": [
+            {
+                "name": "Elden Lord",
+                "description": "Become the Elden Lord",
+                "points": 100
+            },
+            {
+                "name": "Shardbearer",
+                "description": "Defeat a demigod and claim their Great Rune",
+                "points": 50
+            },
+            {
+                "name": "To the Roundtable",
+                "description": "Arrive at the Roundtable Hold",
+                "points": 15
+            }
+        ]
+    },
+    {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "release_date": "2017-03-03",
+        "genre": "Adventure",
+        "rating": "E10+",
+        "metacritic_score": 97,
+        "price": 59.99,
+        "publisher": {
+            "name": "Nintendo",
+            "country": "Japan",
+            "founded_year": 1889
+        },
+        "developer": {
+            "name": "Nintendo EPD",
+            "country": "Japan",
+            "founded_year": 2015,
+            "employee_count": 800
+        },
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "open-world",
+            "exploration",
+            "puzzle",
+            "fantasy"
+        ],
+        "achievements": [
+            {
+                "name": "Defeated Calamity Ganon",
+                "description": "Free Hyrule from Calamity Ganon",
+                "points": 100
+            },
+            {
+                "name": "Trial of the Sword",
+                "description": "Complete the Trial of the Sword",
+                "points": 75
+            },
+            {
+                "name": "Shrines Completed",
+                "description": "Complete all 120 shrines",
+                "points": 80
+            }
+        ]
+    },
+    {
+        "title": "God of War Ragnarok",
+        "release_date": "2022-11-09",
+        "genre": "Action",
+        "rating": "M",
+        "metacritic_score": 94,
+        "price": 69.99,
+        "publisher": {
+            "name": "Sony Interactive",
+            "country": "Japan",
+            "founded_year": 1993
+        },
+        "developer": {
+            "name": "Santa Monica Studio",
+            "country": "USA",
+            "founded_year": 1999,
+            "employee_count": 300
+        },
+        "platforms": [
+            "PlayStation 5",
+            "PlayStation 4"
+        ],
+        "tags": [
+            "action",
+            "mythology",
+            "narrative",
+            "combat"
+        ],
+        "achievements": [
+            {
+                "name": "Ragnarok",
+                "description": "Complete the main story",
+                "points": 100
+            },
+            {
+                "name": "Grave Mistake",
+                "description": "Defeat Gna",
+                "points": 75
+            },
+            {
+                "name": "Full Roster",
+                "description": "Reunite all companions",
+                "points": 40
+            }
+        ]
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "release_date": "2020-12-10",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 86,
+        "price": 49.99,
+        "publisher": {
+            "name": "CD Projekt",
+            "country": "Poland",
+            "founded_year": 1994
+        },
+        "developer": {
+            "name": "CD Projekt Red",
+            "country": "Poland",
+            "founded_year": 1994,
+            "employee_count": 1200
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X"
+        ],
+        "tags": [
+            "open-world",
+            "cyberpunk",
+            "RPG",
+            "futuristic"
+        ],
+        "achievements": [
+            {
+                "name": "The Devil",
+                "description": "Complete Arasaka ending",
+                "points": 50
+            },
+            {
+                "name": "The Star",
+                "description": "Leave Night City with the Aldecaldos",
+                "points": 50
+            },
+            {
+                "name": "Legend of Night City",
+                "description": "Reach the highest street cred level",
+                "points": 60
+            }
+        ]
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "release_date": "2015-05-19",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 92,
+        "price": 39.99,
+        "publisher": {
+            "name": "CD Projekt",
+            "country": "Poland",
+            "founded_year": 1994
+        },
+        "developer": {
+            "name": "CD Projekt Red",
+            "country": "Poland",
+            "founded_year": 1994,
+            "employee_count": 1200
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "open-world",
+            "fantasy",
+            "RPG",
+            "narrative"
+        ],
+        "achievements": [
+            {
+                "name": "Passed the Trial",
+                "description": "Complete the main story",
+                "points": 100
+            },
+            {
+                "name": "Masterful Witcher",
+                "description": "Complete all witcher contracts",
+                "points": 80
+            },
+            {
+                "name": "Card Collector",
+                "description": "Collect all Gwent cards",
+                "points": 60
+            }
+        ]
+    },
+    {
+        "title": "Hades",
+        "release_date": "2020-09-17",
+        "genre": "Roguelike",
+        "rating": "T",
+        "metacritic_score": 93,
+        "price": 24.99,
+        "publisher": {
+            "name": "Supergiant Games",
+            "country": "USA",
+            "founded_year": 2009
+        },
+        "developer": {
+            "name": "Supergiant Games",
+            "country": "USA",
+            "founded_year": 2009,
+            "employee_count": 30
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "roguelike",
+            "mythology",
+            "indie",
+            "action"
+        ],
+        "achievements": [
+            {
+                "name": "Escaped for the First Time",
+                "description": "Defeat Hades and escape the Underworld",
+                "points": 50
+            },
+            {
+                "name": "Reached the Surface",
+                "description": "Escape 10 times",
+                "points": 80
+            },
+            {
+                "name": "True Ending",
+                "description": "Complete the true ending",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Hollow Knight",
+        "release_date": "2017-02-24",
+        "genre": "Platformer",
+        "rating": "E10+",
+        "metacritic_score": 90,
+        "price": 14.99,
+        "publisher": {
+            "name": "Team Cherry",
+            "country": "Australia",
+            "founded_year": 2014
+        },
+        "developer": {
+            "name": "Team Cherry",
+            "country": "Australia",
+            "founded_year": 2014,
+            "employee_count": 3
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "metroidvania",
+            "indie",
+            "challenging",
+            "platformer"
+        ],
+        "achievements": [
+            {
+                "name": "Pure Vessel",
+                "description": "Defeat the Hollow Knight without taking damage",
+                "points": 100
+            },
+            {
+                "name": "Radiance",
+                "description": "Defeat the Radiance",
+                "points": 90
+            },
+            {
+                "name": "Collector",
+                "description": "Obtain all charms",
+                "points": 60
+            }
+        ]
+    },
+    {
+        "title": "Minecraft",
+        "release_date": "2011-11-18",
+        "genre": "Simulation",
+        "rating": "E10+",
+        "metacritic_score": 93,
+        "price": 29.99,
+        "publisher": {
+            "name": "Microsoft Gaming",
+            "country": "USA",
+            "founded_year": 2001
+        },
+        "developer": {
+            "name": "Mojang Studios",
+            "country": "Sweden",
+            "founded_year": 2009,
+            "employee_count": 600
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch",
+            "iOS",
+            "Android"
+        ],
+        "tags": [
+            "sandbox",
+            "survival",
+            "building",
+            "family-friendly"
+        ],
+        "achievements": [
+            {
+                "name": "The End",
+                "description": "Defeat the Ender Dragon",
+                "points": 100
+            },
+            {
+                "name": "Beaconator",
+                "description": "Create a full beacon",
+                "points": 75
+            },
+            {
+                "name": "Adventuring Time",
+                "description": "Discover all biomes",
+                "points": 80
+            }
+        ]
+    },
+    {
+        "title": "Apex Legends",
+        "release_date": "2019-02-04",
+        "genre": "Battle Royale",
+        "rating": "T",
+        "metacritic_score": 89,
+        "price": 0.00,
+        "publisher": {
+            "name": "Electronic Arts",
+            "country": "USA",
+            "founded_year": 1982
+        },
+        "developer": {
+            "name": "Respawn Entertainment",
+            "country": "USA",
+            "founded_year": 2010,
+            "employee_count": 315
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "battle-royale",
+            "free-to-play",
+            "multiplayer",
+            "shooter"
+        ],
+        "achievements": [
+            {
+                "name": "Champion",
+                "description": "Win your first game as champion",
+                "points": 50
+            },
+            {
+                "name": "Legend",
+                "description": "Win 20 games",
+                "points": 80
+            },
+            {
+                "name": "Apex Predator",
+                "description": "Reach Apex Predator rank",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Red Dead Redemption 2",
+        "release_date": "2018-10-26",
+        "genre": "Adventure",
+        "rating": "M",
+        "metacritic_score": 97,
+        "price": 59.99,
+        "publisher": {
+            "name": "Rockstar Games",
+            "country": "USA",
+            "founded_year": 1998
+        },
+        "developer": {
+            "name": "Rockstar Games",
+            "country": "USA",
+            "founded_year": 1998,
+            "employee_count": 2000
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "tags": [
+            "open-world",
+            "western",
+            "narrative",
+            "realistic"
+        ],
+        "achievements": [
+            {
+                "name": "Legend of the West",
+                "description": "Complete 100% of the story",
+                "points": 100
+            },
+            {
+                "name": "All's Fair in Love and War",
+                "description": "Win a duel",
+                "points": 20
+            },
+            {
+                "name": "Survivalist",
+                "description": "Complete all survivalist challenges",
+                "points": 60
+            }
+        ]
+    },
+    {
+        "title": "Baldur's Gate 3",
+        "release_date": "2023-08-03",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 96,
+        "price": 59.99,
+        "publisher": {
+            "name": "Larian Studios",
+            "country": "Belgium",
+            "founded_year": 1996
+        },
+        "developer": {
+            "name": "Larian Studios",
+            "country": "Belgium",
+            "founded_year": 1996,
+            "employee_count": 450
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5"
+        ],
+        "tags": [
+            "RPG",
+            "turn-based",
+            "fantasy",
+            "DnD"
+        ],
+        "achievements": [
+            {
+                "name": "Absolute Power",
+                "description": "Complete the main story",
+                "points": 100
+            },
+            {
+                "name": "I Shall Master This",
+                "description": "Learn a new spell or cantrip",
+                "points": 10
+            },
+            {
+                "name": "Descent",
+                "description": "Reach the Underdark",
+                "points": 30
+            }
+        ]
+    },
+    {
+        "title": "Resident Evil 4 Remake",
+        "release_date": "2023-03-24",
+        "genre": "Horror",
+        "rating": "M",
+        "metacritic_score": 93,
+        "price": 59.99,
+        "publisher": {
+            "name": "Capcom",
+            "country": "Japan",
+            "founded_year": 1979
+        },
+        "developer": {
+            "name": "Capcom",
+            "country": "Japan",
+            "founded_year": 1979,
+            "employee_count": 2800
+        },
+        "platforms": [
+            "PlayStation 5",
+            "Xbox Series X",
+            "PC",
+            "PlayStation 4"
+        ],
+        "tags": [
+            "horror",
+            "survival",
+            "action",
+            "remake"
+        ],
+        "achievements": [
+            {
+                "name": "Requiem for War",
+                "description": "Complete the main game",
+                "points": 50
+            },
+            {
+                "name": "Overachiever",
+                "description": "Complete all challenges",
+                "points": 100
+            },
+            {
+                "name": "Minimalist",
+                "description": "Complete without using herbs",
+                "points": 80
+            }
+        ]
+    },
+    {
+        "title": "Animal Crossing: New Horizons",
+        "release_date": "2020-03-20",
+        "genre": "Simulation",
+        "rating": "E",
+        "metacritic_score": 90,
+        "price": 59.99,
+        "publisher": {
+            "name": "Nintendo",
+            "country": "Japan",
+            "founded_year": 1889
+        },
+        "developer": {
+            "name": "Nintendo EPD",
+            "country": "Japan",
+            "founded_year": 2015,
+            "employee_count": 800
+        },
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "life-sim",
+            "casual",
+            "relaxing",
+            "family-friendly"
+        ],
+        "achievements": [
+            {
+                "name": "Island Representative",
+                "description": "Become the island representative",
+                "points": 10
+            },
+            {
+                "name": "Museum Maniac",
+                "description": "Complete the museum",
+                "points": 80
+            },
+            {
+                "name": "Island Designer",
+                "description": "Achieve 5-star island rating",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Street Fighter 6",
+        "release_date": "2023-06-02",
+        "genre": "Fighting",
+        "rating": "T",
+        "metacritic_score": 92,
+        "price": 59.99,
+        "publisher": {
+            "name": "Capcom",
+            "country": "Japan",
+            "founded_year": 1979
+        },
+        "developer": {
+            "name": "Capcom",
+            "country": "Japan",
+            "founded_year": 1979,
+            "employee_count": 2800
+        },
+        "platforms": [
+            "PlayStation 5",
+            "Xbox Series X",
+            "PC"
+        ],
+        "tags": [
+            "fighting",
+            "competitive",
+            "multiplayer",
+            "esports"
+        ],
+        "achievements": [
+            {
+                "name": "World Warrior",
+                "description": "Complete World Tour mode",
+                "points": 80
+            },
+            {
+                "name": "Perfect",
+                "description": "Win a round without taking damage",
+                "points": 30
+            },
+            {
+                "name": "Grand Master",
+                "description": "Reach Master rank in any character",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Halo Infinite",
+        "release_date": "2021-12-08",
+        "genre": "Shooter",
+        "rating": "T",
+        "metacritic_score": 87,
+        "price": 59.99,
+        "publisher": {
+            "name": "Microsoft Gaming",
+            "country": "USA",
+            "founded_year": 2001
+        },
+        "developer": {
+            "name": "343 Industries",
+            "country": "USA",
+            "founded_year": 2007,
+            "employee_count": 500
+        },
+        "platforms": [
+            "Xbox Series X",
+            "Xbox One",
+            "PC"
+        ],
+        "tags": [
+            "shooter",
+            "sci-fi",
+            "multiplayer",
+            "open-world"
+        ],
+        "achievements": [
+            {
+                "name": "Reclaimer",
+                "description": "Complete the campaign",
+                "points": 100
+            },
+            {
+                "name": "The Weapon",
+                "description": "Protect the Weapon",
+                "points": 50
+            },
+            {
+                "name": "Landfall",
+                "description": "Escape the wreckage of the Infinity",
+                "points": 15
+            }
+        ]
+    },
+    {
+        "title": "Dark Souls III",
+        "release_date": "2016-04-12",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 89,
+        "price": 39.99,
+        "publisher": {
+            "name": "Bandai Namco",
+            "country": "Japan",
+            "founded_year": 1955
+        },
+        "developer": {
+            "name": "FromSoftware",
+            "country": "Japan",
+            "founded_year": 1986,
+            "employee_count": 350
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "tags": [
+            "souls-like",
+            "challenging",
+            "dark-fantasy",
+            "action-RPG"
+        ],
+        "achievements": [
+            {
+                "name": "The Dark Soul",
+                "description": "Acquire all magic, pyromancies, and miracles",
+                "points": 100
+            },
+            {
+                "name": "Lord of Hollows",
+                "description": "Finish Usurpation of Fire ending",
+                "points": 75
+            },
+            {
+                "name": "Iudex Gundyr",
+                "description": "Defeat Iudex Gundyr",
+                "points": 15
+            }
+        ]
+    },
+    {
+        "title": "The Last of Us Part II",
+        "release_date": "2020-06-19",
+        "genre": "Adventure",
+        "rating": "M",
+        "metacritic_score": 93,
+        "price": 69.99,
+        "publisher": {
+            "name": "Sony Interactive",
+            "country": "Japan",
+            "founded_year": 1993
+        },
+        "developer": {
+            "name": "Naughty Dog",
+            "country": "USA",
+            "founded_year": 1984,
+            "employee_count": 400
+        },
+        "platforms": [
+            "PlayStation 5",
+            "PlayStation 4"
+        ],
+        "tags": [
+            "narrative",
+            "survival",
+            "emotional",
+            "stealth"
+        ],
+        "achievements": [
+            {
+                "name": "All That Matters",
+                "description": "Complete the game",
+                "points": 100
+            },
+            {
+                "name": "Emergency Necessity",
+                "description": "Craft every item",
+                "points": 60
+            },
+            {
+                "name": "Prepared for the Worst",
+                "description": "Find all weapons",
+                "points": 50
+            }
+        ]
+    },
+    {
+        "title": "Spider-Man: Miles Morales",
+        "release_date": "2020-11-12",
+        "genre": "Action",
+        "rating": "T",
+        "metacritic_score": 85,
+        "price": 49.99,
+        "publisher": {
+            "name": "Sony Interactive",
+            "country": "Japan",
+            "founded_year": 1993
+        },
+        "developer": {
+            "name": "Insomniac Games",
+            "country": "USA",
+            "founded_year": 1994,
+            "employee_count": 275
+        },
+        "platforms": [
+            "PlayStation 5",
+            "PlayStation 4",
+            "PC"
+        ],
+        "tags": [
+            "superhero",
+            "open-world",
+            "action",
+            "narrative"
+        ],
+        "achievements": [
+            {
+                "name": "All Wrapped Up",
+                "description": "Complete the main story",
+                "points": 100
+            },
+            {
+                "name": "Bug Report",
+                "description": "Collect all Spider-Bots",
+                "points": 60
+            },
+            {
+                "name": "I'm on Top of the World!",
+                "description": "Reach the top of every skyscraper",
+                "points": 40
+            }
+        ]
+    },
+    {
+        "title": "Stardew Valley",
+        "release_date": "2016-02-26",
+        "genre": "Simulation",
+        "rating": "E10+",
+        "metacritic_score": 89,
+        "price": 14.99,
+        "publisher": {
+            "name": "ConcernedApe",
+            "country": "USA",
+            "founded_year": 2012
+        },
+        "developer": {
+            "name": "ConcernedApe",
+            "country": "USA",
+            "founded_year": 2012,
+            "employee_count": 1
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch",
+            "iOS",
+            "Android"
+        ],
+        "tags": [
+            "farming-sim",
+            "indie",
+            "relaxing",
+            "RPG",
+            "multiplayer"
+        ],
+        "achievements": [
+            {
+                "name": "Full Shipment",
+                "description": "Ship every item",
+                "points": 100
+            },
+            {
+                "name": "Master Angler",
+                "description": "Catch every type of fish",
+                "points": 80
+            },
+            {
+                "name": "A New Land",
+                "description": "Start your first day on the farm",
+                "points": 5
+            }
+        ]
+    },
+    {
+        "title": "Doom Eternal",
+        "release_date": "2020-03-20",
+        "genre": "Shooter",
+        "rating": "M",
+        "metacritic_score": 88,
+        "price": 39.99,
+        "publisher": {
+            "name": "Bethesda Softworks",
+            "country": "USA",
+            "founded_year": 1986
+        },
+        "developer": {
+            "name": "id Software",
+            "country": "USA",
+            "founded_year": 1991,
+            "employee_count": 200
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "shooter",
+            "fast-paced",
+            "metal",
+            "demons"
+        ],
+        "achievements": [
+            {
+                "name": "RATHUL",
+                "description": "Complete all Slayer Gates",
+                "points": 75
+            },
+            {
+                "name": "Finish Them",
+                "description": "Perform 100 Glory Kills",
+                "points": 30
+            },
+            {
+                "name": "IDDQD",
+                "description": "Complete the campaign on Ultra-Nightmare",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Celeste",
+        "release_date": "2018-01-25",
+        "genre": "Platformer",
+        "rating": "E10+",
+        "metacritic_score": 94,
+        "price": 19.99,
+        "publisher": {
+            "name": "Matt Makes Games",
+            "country": "Canada",
+            "founded_year": 2013
+        },
+        "developer": {
+            "name": "Matt Makes Games",
+            "country": "Canada",
+            "founded_year": 2013,
+            "employee_count": 2
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "platformer",
+            "indie",
+            "challenging",
+            "narrative",
+            "mental-health"
+        ],
+        "achievements": [
+            {
+                "name": "The Summit",
+                "description": "Complete the main story",
+                "points": 50
+            },
+            {
+                "name": "Farewell",
+                "description": "Complete Chapter 9",
+                "points": 100
+            },
+            {
+                "name": "Strawberry Jam",
+                "description": "Collect all strawberries",
+                "points": 80
+            }
+        ]
+    },
+    {
+        "title": "Disco Elysium",
+        "release_date": "2019-10-15",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 97,
+        "price": 39.99,
+        "publisher": {
+            "name": "ZA/UM",
+            "country": "Estonia",
+            "founded_year": 2016
+        },
+        "developer": {
+            "name": "ZA/UM",
+            "country": "Estonia",
+            "founded_year": 2016,
+            "employee_count": 35
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 5"
+        ],
+        "tags": [
+            "RPG",
+            "detective",
+            "narrative",
+            "indie",
+            "political"
+        ],
+        "achievements": [
+            {
+                "name": "The Indoors Flashlight",
+                "description": "Complete the main investigation",
+                "points": 100
+            },
+            {
+                "name": "The Shivers",
+                "description": "Max out the Shivers skill",
+                "points": 60
+            },
+            {
+                "name": "A Cop Who Cares",
+                "description": "Complete all political vision quests",
+                "points": 80
+            }
+        ]
+    },
+    {
+        "title": "Final Fantasy XVI",
+        "release_date": "2023-06-22",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 87,
+        "price": 69.99,
+        "publisher": {
+            "name": "Square Enix",
+            "country": "Japan",
+            "founded_year": 2003
+        },
+        "developer": {
+            "name": "Square Enix Creative Business Unit III",
+            "country": "Japan",
+            "founded_year": 2021,
+            "employee_count": 400
+        },
+        "platforms": [
+            "PlayStation 5",
+            "PC"
+        ],
+        "tags": [
+            "RPG",
+            "action",
+            "fantasy",
+            "narrative"
+        ],
+        "achievements": [
+            {
+                "name": "Mythos",
+                "description": "Complete the main story",
+                "points": 100
+            },
+            {
+                "name": "Kairos Gate",
+                "description": "Complete all Chronolith Trials",
+                "points": 80
+            },
+            {
+                "name": "Like Wind, Like Lightning",
+                "description": "Obtain all Eikonic Abilities",
+                "points": 60
+            }
+        ]
+    },
+    {
+        "title": "Sekiro: Shadows Die Twice",
+        "release_date": "2019-03-22",
+        "genre": "Action",
+        "rating": "M",
+        "metacritic_score": 90,
+        "price": 59.99,
+        "publisher": {
+            "name": "Activision",
+            "country": "USA",
+            "founded_year": 1979
+        },
+        "developer": {
+            "name": "FromSoftware",
+            "country": "Japan",
+            "founded_year": 1986,
+            "employee_count": 350
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "tags": [
+            "souls-like",
+            "feudal-japan",
+            "challenging",
+            "stealth"
+        ],
+        "achievements": [
+            {
+                "name": "Shura",
+                "description": "Complete the Shura ending",
+                "points": 75
+            },
+            {
+                "name": "Return",
+                "description": "Complete the Return ending",
+                "points": 100
+            },
+            {
+                "name": "Immortal Severance",
+                "description": "Complete the Immortal Severance ending",
+                "points": 75
+            }
+        ]
+    },
+    {
+        "title": "Overwatch 2",
+        "release_date": "2022-10-04",
+        "genre": "Shooter",
+        "rating": "T",
+        "metacritic_score": 74,
+        "price": 0.00,
+        "publisher": {
+            "name": "Activision Blizzard",
+            "country": "USA",
+            "founded_year": 2008
+        },
+        "developer": {
+            "name": "Blizzard Entertainment",
+            "country": "USA",
+            "founded_year": 1991,
+            "employee_count": 4500
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X",
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "hero-shooter",
+            "free-to-play",
+            "multiplayer",
+            "competitive"
+        ],
+        "achievements": [
+            {
+                "name": "Level 10",
+                "description": "Reach player level 10",
+                "points": 10
+            },
+            {
+                "name": "First Win of the Day",
+                "description": "Win a match",
+                "points": 5
+            },
+            {
+                "name": "Competitive Champion",
+                "description": "Reach Grandmaster rank",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Monster Hunter: World",
+        "release_date": "2018-01-26",
+        "genre": "Action",
+        "rating": "T",
+        "metacritic_score": 88,
+        "price": 29.99,
+        "publisher": {
+            "name": "Capcom",
+            "country": "Japan",
+            "founded_year": 1979
+        },
+        "developer": {
+            "name": "Capcom",
+            "country": "Japan",
+            "founded_year": 1979,
+            "employee_count": 2800
+        },
+        "platforms": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One"
+        ],
+        "tags": [
+            "action",
+            "hunting",
+            "co-op",
+            "loot"
+        ],
+        "achievements": [
+            {
+                "name": "True Hunter",
+                "description": "Hunt every monster in the base game",
+                "points": 100
+            },
+            {
+                "name": "Forge Master",
+                "description": "Craft 100 weapons",
+                "points": 60
+            },
+            {
+                "name": "Welcome to the New World",
+                "description": "Complete the opening cinematic",
+                "points": 5
+            }
+        ]
+    },
+    {
+        "title": "Death Stranding",
+        "release_date": "2019-11-08",
+        "genre": "Adventure",
+        "rating": "M",
+        "metacritic_score": 82,
+        "price": 39.99,
+        "publisher": {
+            "name": "Sony Interactive",
+            "country": "Japan",
+            "founded_year": 1993
+        },
+        "developer": {
+            "name": "Kojima Productions",
+            "country": "Japan",
+            "founded_year": 2015,
+            "employee_count": 150
+        },
+        "platforms": [
+            "PlayStation 4",
+            "PC",
+            "PlayStation 5"
+        ],
+        "tags": [
+            "open-world",
+            "delivery",
+            "unique",
+            "narrative",
+            "kojima"
+        ],
+        "achievements": [
+            {
+                "name": "Master Porter",
+                "description": "Achieve the highest porter rank",
+                "points": 100
+            },
+            {
+                "name": "Speed Demon",
+                "description": "Complete a delivery with an S rank",
+                "points": 30
+            },
+            {
+                "name": "Bridge Builder",
+                "description": "Build 100 structures",
+                "points": 60
+            }
+        ]
+    },
+    {
+        "title": "Persona 5 Royal",
+        "release_date": "2019-10-31",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 95,
+        "price": 59.99,
+        "publisher": {
+            "name": "Atlus",
+            "country": "Japan",
+            "founded_year": 1986
+        },
+        "developer": {
+            "name": "Atlus P-Studio",
+            "country": "Japan",
+            "founded_year": 1986,
+            "employee_count": 200
+        },
+        "platforms": [
+            "PlayStation 4",
+            "PC",
+            "Nintendo Switch",
+            "Xbox Series X"
+        ],
+        "tags": [
+            "RPG",
+            "turn-based",
+            "social-sim",
+            "anime",
+            "heist"
+        ],
+        "achievements": [
+            {
+                "name": "Legendary Phantom Thief",
+                "description": "Complete the game on Merciless difficulty",
+                "points": 100
+            },
+            {
+                "name": "Wunderkind",
+                "description": "Max out all Confidants",
+                "points": 80
+            },
+            {
+                "name": "Steal Crown",
+                "description": "Send the first calling card",
+                "points": 15
+            }
+        ]
+    },
+    {
+        "title": "Super Mario Odyssey",
+        "release_date": "2017-10-27",
+        "genre": "Platformer",
+        "rating": "E10+",
+        "metacritic_score": 97,
+        "price": 59.99,
+        "publisher": {
+            "name": "Nintendo",
+            "country": "Japan",
+            "founded_year": 1889
+        },
+        "developer": {
+            "name": "Nintendo EPD",
+            "country": "Japan",
+            "founded_year": 2015,
+            "employee_count": 800
+        },
+        "platforms": [
+            "Nintendo Switch"
+        ],
+        "tags": [
+            "platformer",
+            "family-friendly",
+            "open-world",
+            "co-op"
+        ],
+        "achievements": [
+            {
+                "name": "Bowser Defeated!",
+                "description": "Defeat Bowser for the first time",
+                "points": 50
+            },
+            {
+                "name": "Balloon World Champ",
+                "description": "Earn 1000 coins in Balloon World",
+                "points": 60
+            },
+            {
+                "name": "Moon Rock Revealer",
+                "description": "Unlock every Moon Rock",
+                "points": 100
+            }
+        ]
+    },
+    {
+        "title": "Half-Life: Alyx",
+        "release_date": "2020-03-23",
+        "genre": "Shooter",
+        "rating": "M",
+        "metacritic_score": 93,
+        "price": 59.99,
+        "publisher": {
+            "name": "Valve",
+            "country": "USA",
+            "founded_year": 1996
+        },
+        "developer": {
+            "name": "Valve",
+            "country": "USA",
+            "founded_year": 1996,
+            "employee_count": 360
+        },
+        "platforms": [
+            "PC"
+        ],
+        "tags": [
+            "VR",
+            "shooter",
+            "sci-fi",
+            "puzzle",
+            "immersive"
+        ],
+        "achievements": [
+            {
+                "name": "Ending",
+                "description": "Complete the game",
+                "points": 100
+            },
+            {
+                "name": "Gnome Chompski",
+                "description": "Bring the gnome to the end",
+                "points": 80
+            },
+            {
+                "name": "Head of Security",
+                "description": "Gain access to a Combine vault",
+                "points": 30
+            }
+        ]
+    },
+    {
+        "title": "Starfield",
+        "release_date": "2023-09-06",
+        "genre": "RPG",
+        "rating": "M",
+        "metacritic_score": 83,
+        "price": 69.99,
+        "publisher": {
+            "name": "Bethesda Softworks",
+            "country": "USA",
+            "founded_year": 1986
+        },
+        "developer": {
+            "name": "Bethesda Game Studios",
+            "country": "USA",
+            "founded_year": 2001,
+            "employee_count": 420
+        },
+        "platforms": [
+            "PC",
+            "Xbox Series X"
+        ],
+        "tags": [
+            "RPG",
+            "space",
+            "open-world",
+            "exploration",
+            "sci-fi"
+        ],
+        "achievements": [
+            {
+                "name": "One Small Step",
+                "description": "Complete Into the Unknown",
+                "points": 50
+            },
+            {
+                "name": "All Hail Constellation",
+                "description": "Complete the main quest",
+                "points": 100
+            },
+            {
+                "name": "The Wanted",
+                "description": "Bounty exceeds 5000 credits",
+                "points": 30
+            }
+        ]
+    }
+]
