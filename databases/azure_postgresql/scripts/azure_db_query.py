@@ -9,7 +9,7 @@ def connect_to_azure_db():
         # Connection parameters - UPDATE THESE WITH YOUR DETAILS!
         connection = psycopg2.connect(
             host="pgtest-clb.postgres.database.azure.com",
-            database="gameverse",
+            database="gameverse_azure",
             user="postgres",
             password="Abc123**",
             port="5432",
