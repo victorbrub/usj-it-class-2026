@@ -23,16 +23,17 @@ model (star schema) and compare the resulting execution plans.
 
 ## Domain: Football League (La Liga style)
 
-The database contains three full seasons of a 20-club football competition:
+The database covers 50 seasons across 10 European football leagues (200 clubs):
 
 | Entity  | Volume |
 |---------|--------|
-| Clubs   | 20     |
-| Players | 500 (25 per club) |
-| Seasons | 15 (2010/11 through 2024/25) |
-| Matches | 5,700 (380 per season) |
-| Goals   | ~16,000 |
-| Cards   | ~34,000 |
+| Clubs   | 200 (20 per league x 10 leagues) |
+| Players | 5,000 (25 per club) |
+| Seasons | 50 (1975/76 through 2024/25) |
+| Matches | 190,000 (3,800 per season) |
+| Goals   | 564,156 |
+| Cards   | 760,166 |
+| fact_player_performance rows | 1,528,196 |
 
 ---
 
@@ -96,7 +97,7 @@ fact_player_performance -> dim_player -> dim_season. That is 3 tables and
 |---|-----|-----------------|-------------------|
 | 1 | Top 10 goal scorers in a season | 5 tables, 4 joins | 4 tables, 3 joins |
 | 2 | League table (standings) | UNION ALL + 3 tables | 2 CTEs + 3 tables |
-| 3 | Monthly goal trend (all 15 seasons) | 2 tables + date extraction | 2 tables, pre-computed date |
+| 3 | Monthly goal trend (all 50 seasons) | 2 tables + date extraction | 2 tables, pre-computed date |
 | 4 | Avg goals per player by nationality | 2 tables, LEFT JOIN | 2 tables |
 | 5 | Cards per match by club | CTE + 4 tables | CTE + 3 tables, no cards join |
 
@@ -191,6 +192,32 @@ For each KPI fill in the comparison table below.
 In the EXPLAIN output, count every indented operation on a separate line
 (Seq Scan, Index Scan, Hash, Hash Join, Sort, Aggregate, CTE Scan, etc.).
 
+### Part 5 - Visualize the comparison (15 min)
+
+After completing Part 3, generate the performance chart so you can see all
+metrics at a glance:
+
+```bash
+pip install psycopg2-binary matplotlib numpy   # only needed once
+cd data_warehousing/modelling_exercise
+python3 08_plot_performance.py
+```
+
+Open `relational_vs_dimensional.png` and examine each of the five panels:
+
+| Panel | What it shows | Key observation |
+|-------|--------------|------------------|
+| 1 (Execution time) | Milliseconds per KPI for both models | Green bars should be shorter across all five KPIs. The percentage label on the right shows the time reduction. |
+| 2 (Plan nodes) | Number of operations in the execution plan | Dimensional plans have fewer nodes because facts are pre-aggregated. |
+| 3 (Tables scanned) | Relation scans performed at runtime | The relational model scans more tables because normalization requires joining many entities. |
+| 4 (Speedup factor) | How many times faster the dimensional model is | Values above 1x confirm the dimensional model is faster. Higher bars indicate queries that benefit most from pre-aggregation. |
+| 5 (Partition pruning) | Rows scanned vs number of seasons (log scale) | The red line grows linearly with data volume; the green line stays flat. At 1,000 seasons the pruned query scans 1/1,000th of the rows a full scan would touch. |
+
+Discuss with your group:
+- Which KPI shows the largest speedup? Why?
+- Which panel best illustrates the partition pruning benefit?
+- Would the speedup increase or decrease if the database contained 100 seasons?
+
 ### Part 4 - Reflection questions (20 min)
 
 Answer the following questions individually or in groups:
@@ -257,6 +284,8 @@ modelling_exercise/
 ├── 07_partition_pruning_demo.sql      Partition pruning demo + scaling projection
 ├── 07_partition_pruning_analysis.md   Annotated analysis of the three demo parts
 ├── 08_plot_performance.py             Python script — generates the performance chart
+├── 09_kpis_dimensional_advantage.md   3 new KPIs designed to favour dimensional, with queries,
+│                                      EXPLAIN ANALYZE plans, and timing comparison for both models
 └── relational_vs_dimensional.png      Generated chart (run 08_plot_performance.py)
 ```
 
@@ -264,4 +293,13 @@ To regenerate the chart after installing the database:
 ```bash
 python3 08_plot_performance.py
 ```
-Requires `matplotlib` and `numpy` (`pip install matplotlib numpy`).
+Requires `psycopg2-binary`, `matplotlib`, and `numpy`:
+```bash
+pip install psycopg2-binary matplotlib numpy
+```
+Optional overrides (host, port, user, dbname, output path):
+```bash
+python3 08_plot_performance.py --host localhost --port 5432 \
+                               --user postgres --dbname football_dw \
+                               --output relational_vs_dimensional.png
+```

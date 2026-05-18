@@ -120,7 +120,7 @@ CREATE INDEX idx_fmr_season     ON dimensional.fact_match_results(season_key);
 DO $$
 DECLARE i INT;
 BEGIN
-    FOR i IN 1..15 LOOP
+    FOR i IN 1..50 LOOP
         EXECUTE format(
             'CREATE TABLE dimensional.fact_match_results_s%s
              PARTITION OF dimensional.fact_match_results
@@ -159,7 +159,7 @@ CREATE INDEX idx_fpp_season  ON dimensional.fact_player_performance(season_key);
 DO $$
 DECLARE i INT;
 BEGIN
-    FOR i IN 1..15 LOOP
+    FOR i IN 1..50 LOOP
         EXECUTE format(
             'CREATE TABLE dimensional.fact_player_performance_s%s
              PARTITION OF dimensional.fact_player_performance

@@ -29,7 +29,7 @@ SELECT
     TO_CHAR(d, 'FMDay'),
     EXTRACT(DOW FROM d) IN (0, 6),
     EXTRACT(WEEK    FROM d)::SMALLINT
-FROM generate_series('2010-01-01'::DATE, '2025-12-31'::DATE, '1 day'::INTERVAL) AS d;
+FROM generate_series('1975-01-01'::DATE, '2025-12-31'::DATE, '1 day'::INTERVAL) AS d;
 
 -- -----------------------------------------------------------------------------
 -- 2. dim_club: copy directly from relational source
@@ -163,6 +163,41 @@ JOIN dimensional.dim_season ds ON m.season_id  = ds.season_id
 LEFT JOIN goal_agg   ga ON pm.player_id = ga.scorer_id AND pm.match_id = ga.match_id
 LEFT JOIN assist_agg aa ON pm.player_id = aa.assist_id AND pm.match_id = aa.match_id
 LEFT JOIN card_agg   ca ON pm.player_id = ca.player_id AND pm.match_id = ca.match_id;
+
+-- Cluster dimensional fact table partitions after ETL is complete.
+-- fact_match_results partitions: cluster by date_key (temporal locality).
+-- fact_player_performance partitions: cluster by player_key (career query locality).
+DO $$
+DECLARE r RECORD;
+BEGIN
+    FOR r IN
+        SELECT c.relname AS tbl, i.relname AS idx
+        FROM pg_class c
+        JOIN pg_index  pi ON c.oid = pi.indrelid
+        JOIN pg_class  i  ON pi.indexrelid = i.oid
+        JOIN pg_namespace n ON c.relnamespace = n.oid
+        WHERE n.nspname = 'dimensional'
+          AND c.relname ~ '^fact_match_results_s[0-9]+$'
+          AND i.relname LIKE '%date%'
+        ORDER BY c.relname
+    LOOP
+        EXECUTE format('CLUSTER dimensional.%I USING %I', r.tbl, r.idx);
+    END LOOP;
+    FOR r IN
+        SELECT c.relname AS tbl, i.relname AS idx
+        FROM pg_class c
+        JOIN pg_index  pi ON c.oid = pi.indrelid
+        JOIN pg_class  i  ON pi.indexrelid = i.oid
+        JOIN pg_namespace n ON c.relnamespace = n.oid
+        WHERE n.nspname = 'dimensional'
+          AND c.relname ~ '^fact_player_performance_s[0-9]+$'
+          AND i.relname LIKE '%player%'
+        ORDER BY c.relname
+    LOOP
+        EXECUTE format('CLUSTER dimensional.%I USING %I', r.tbl, r.idx);
+    END LOOP;
+END;
+$$;
 
 -- -----------------------------------------------------------------------------
 -- Update statistics for the query planner
