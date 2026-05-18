@@ -1,7 +1,7 @@
 # Author: Víctor Barceló
 # Correction Summary - Individual Work I: Relational Databases
 
-**Total students:** 29
+**Total students:** 30
 
 | # | Student | Total Score | Correction File |
 |---|---------|-------------|-----------------|
@@ -34,3 +34,4 @@
 | 27 | DANIEL ESCARTÍN MARCÉN | 9.18 / 10 | [daniel_escartin_marcen_correction.md](_corrections/daniel_escartin_marcen_correction.md) |
 | 28 | BURAK ENÖZ | 8.4 / 10 | [burak_enoz_correction.md](_corrections/burak_enoz_correction.md) |
 | 29 | ROBERT VIJAY SMITH | 8.4 / 10 | [robert_vijay_smith_correction.md](_corrections/robert_vijay_smith_correction.md) |
+| 30 | SAMUEL SANTOS GONZALEZ | 8.8 / 10 | [samuel_santos_gonzalez_correction.md](_corrections/samuel_santos_gonzalez_correction.md) |
