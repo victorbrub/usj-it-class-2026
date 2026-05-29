@@ -11,7 +11,7 @@
 #   host     = localhost
 #   port     = 5432
 #   user     = postgres
-#   password = (empty — relies on .pgpass or peer/trust auth)
+#   password = postgres
 #
 # What this script does:
 #   1. Runs the five relational KPI queries  (plain results + EXPLAIN plans)
